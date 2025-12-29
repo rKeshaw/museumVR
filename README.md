@@ -1,10 +1,10 @@
 # museumVR
 
-Smithsonian 3D API Query Tool (Streamlit app)
+## Smithsonian 3D API Query Tool (Streamlit app)
 
 This repository contains a small Streamlit application (smithsonian.py) that queries the Smithsonian Institution's 3D API and provides a table-based interface to browse results, download CSVs, and render embeddable 3D previews.
 
-Key features
+### Key features
 
 - Search the Smithsonian 3D API by free-text query.
 - Optional API key support for rate-limited endpoints.
@@ -14,16 +14,16 @@ Key features
 - Render selected 3D previews in batches using embedded Voyager frames when available.
 - Uses Streamlit session state to persist results and preview state.
 
-Files
+### Files
 
 - smithsonian.py — Main Streamlit application.
 
-Requirements
+### Requirements
 
 - Python 3.8+
 - Packages: streamlit, requests, pandas
 
-Install
+### Install
 
 1. Create a virtual environment (recommended):
 
@@ -35,7 +35,7 @@ Install
 
    pip install streamlit requests pandas
 
-Usage
+### Usage
 
 From the repository root run:
 
@@ -74,5 +74,3 @@ If you'd like to extend this tool, consider:
 - Adding authentication and secure storage for API keys.
 - Improving error handling and retry logic for transient network errors.
 - Adding more robust parsing of model URIs and handling additional file/model types.
-
-No license is included in this repository.
